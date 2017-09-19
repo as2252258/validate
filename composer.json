@@ -1,4 +1,5 @@
 {
+	"version": "1",
 	"name": "xianglin/request-param-validate",
 	"description": "一个参数效验扩展",
 	"keywords": [
