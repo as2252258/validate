@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"xianglin\\validate": "src"
+			"xianglin\\validate\\": "src"
 		}
 	}
 }
