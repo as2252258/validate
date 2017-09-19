@@ -19,9 +19,5 @@
 			"xianglin\\validate\\": "src"
 		}
 	},
-	"extra": {
-		"dev-master": "1.0-dev",
-		"branch-alias": {
-		}
-	}
+	"version": "1.0.0"
 }
