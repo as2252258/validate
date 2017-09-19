@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"name": "xianglin/request-param-validate",
+	"name": "validate/form-validate",
 	"description": "一个参数效验扩展",
 	"keywords": [
 		"validate"
