@@ -1,5 +1,4 @@
 {
-	"version": "1.0.0",
 	"name": "validate/form-validate",
 	"description": "一个参数效验扩展",
 	"keywords": [
