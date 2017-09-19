@@ -1,5 +1,5 @@
 {
-	"name": "validate",
+	"name": "request-param-validate",
 	"description": "一个参数效验扩展",
 	"keywords": [
 		"validate"
