@@ -16,7 +16,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"\\validate": "src/validate"
+			"\\validate": "src/",
+			"\\validate\\ulity": "src/ulity"
 		}
 	}
 }
