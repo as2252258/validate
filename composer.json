@@ -1,8 +1,9 @@
 {
 	"name": "validate",
 	"description": "一个参数效验扩展",
-	"type": "",
-	"keywords": ["validate"],
+	"keywords": [
+		"validate"
+	],
 	"license": "MIT",
 	"authors": [
 		{
@@ -10,6 +11,9 @@
 			"email": "xianglin@163.com"
 		}
 	],
+	"require": {
+		"php": ">=7.0.0"
+	},
 	"autoload": {
 		"psr-4": {
 			"\\Yoc\\validate": "src/validate"
