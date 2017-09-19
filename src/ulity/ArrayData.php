@@ -6,7 +6,7 @@
  * Time: 10:03
  */
 
-namespace xianglin\validate\ulity;
+namespace validate\ulity;
 
 class ArrayData
 {

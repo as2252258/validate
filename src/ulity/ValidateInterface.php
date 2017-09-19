@@ -6,7 +6,7 @@
  * Time: 9:08
  */
 
-namespace xianglin\validate\ulity;
+namespace validate\ulity;
 
 
 interface ValidateInterface

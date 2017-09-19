@@ -6,7 +6,7 @@
  * Time: 13:02
  */
 
-namespace xianglin\validate;
+namespace validate;
 
 
 class StringValidate extends AbstractValidate
