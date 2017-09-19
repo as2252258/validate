@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"\\Yoc\\validate": "src/validate"
+			"\\validate": "src/validate"
 		}
 	}
 }

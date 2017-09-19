@@ -6,7 +6,7 @@
  * Time: 13:03
  */
 
-namespace Yoc\validate;
+namespace \validate;
 
 
 class JsonValidate extends AbstractValidate

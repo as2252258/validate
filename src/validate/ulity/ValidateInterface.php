@@ -6,7 +6,7 @@
  * Time: 9:08
  */
 
-namespace Yoc\validate\ulity;
+namespace \validate\ulity;
 
 
 interface ValidateInterface

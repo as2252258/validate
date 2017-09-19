@@ -6,10 +6,10 @@
  * Time: 9:08
  */
 
-namespace Yoc\validate;
+namespace \validate;
 
-use Yoc\validate\ulity\ArrayData;
-use Yoc\validate\ulity\ValidateInterface;
+use \validate\ulity\ArrayData;
+use \validate\ulity\ValidateInterface;
 
 abstract class AbstractValidate implements ValidateInterface
 {
@@ -30,39 +30,39 @@ abstract class AbstractValidate implements ValidateInterface
 	public $isOk = true;
 	
 	private static $validate = [
-		'required'  => 'Yoc\validate\RequiredValidate',
-		'not empty' => 'Yoc\validate\NotEmptyValidate',
-		'int'       => 'Yoc\validate\NumberValidate',
-		'string'    => 'Yoc\validate\StringValidate',
-		'boolean'   => 'Yoc\validate\RequiredValidate',
-		'json'      => 'Yoc\validate\JsonValidate',
-		'serialize' => 'Yoc\validate\SerializeValidate',
+		'required'  => '\validate\RequiredValidate',
+		'not empty' => '\validate\NotEmptyValidate',
+		'int'       => '\validate\NumberValidate',
+		'string'    => '\validate\StringValidate',
+		'boolean'   => '\validate\RequiredValidate',
+		'json'      => '\validate\JsonValidate',
+		'serialize' => '\validate\SerializeValidate',
 		'time'      => [
-			'class' => 'Yoc\validate\DatetimeAbstractValidate',
+			'class' => '\validate\DatetimeAbstractValidate',
 			'type'  => DatetimeAbstractValidate::TYPE_TIME
 		],
 		'date'      => [
-			'class' => 'Yoc\validate\DatetimeAbstractValidate',
+			'class' => '\validate\DatetimeAbstractValidate',
 			'type'  => DatetimeAbstractValidate::TYPE_DATE
 		],
 		'datetime'  => [
-			'class' => 'Yoc\validate\DatetimeAbstractValidate',
+			'class' => '\validate\DatetimeAbstractValidate',
 			'type'  => DatetimeAbstractValidate::TYPE_DATE_TIME
 		],
 		'strtotime' => [
-			'class' => 'Yoc\validate\DatetimeAbstractValidate',
+			'class' => '\validate\DatetimeAbstractValidate',
 			'type'  => DatetimeAbstractValidate::TYPE_STRTOTIME
 		],
 		'maxLength' => [
-			'class' => 'Yoc\validate\LengthValidate',
+			'class' => '\validate\LengthValidate',
 			'type'  => LengthValidate::MAX_LENGTH,
 		],
 		'minLength' => [
-			'class' => 'Yoc\validate\LengthValidate',
+			'class' => '\validate\LengthValidate',
 			'type'  => LengthValidate::MIN_LENGTH
 		],
 		'length'    => [
-			'class' => 'Yoc\validate\LengthValidate',
+			'class' => '\validate\LengthValidate',
 			'type'  => LengthValidate::MIN_LENGTH
 		]
 	];
@@ -101,7 +101,7 @@ abstract class AbstractValidate implements ValidateInterface
 			$_class['rule'] = $type[key($type)];
 		}
 		if (empty($_class)) {
-			$_class = 'Yoc\validate\StringValidate';
+			$_class = '\validate\StringValidate';
 		}
 		if (!is_array($_class)) {
 			$_class['class'] = $_class;

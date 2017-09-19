@@ -6,7 +6,7 @@
  * Time: 13:47
  */
 
-namespace Yoc\validate;
+namespace \validate;
 
 
 class Validate extends AbstractValidate
